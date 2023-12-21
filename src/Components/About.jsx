@@ -16,27 +16,27 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/motion-background.jpg";
+import image from "../images/about.jpg";
 
-const imageAltText = "purple and blue abstract background";
+const imageAltText = "about image";
 
 /**
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "As a Microsoft Learn Student Ambassador And Campus Lead at MLS Club BVM, web developer at CodeChef BVM Chapter, and a webmaster at IEEE BVM SB, I use my skills in SQL, PHP, ReactJS, and educational technology to create and maintain websites and applications that promote coding and learning among students. I have been working in these roles for two months, and I have contributed to several projects and events that have enhanced the online presence and engagement of both organizations. I am also a core team member of the Google Developer Student Club in 2022-23. These experiences have enabled me to develop my web development, data science, graphic design, and event management competencies. I am pursuing a Bachelor of Technology in Information Technology at Birla Vishvakarma Mahavidyalaya, where I have acquired multiple certifications in SQL and Node.js. I am passionate about using technology to solve real-world problems and to empower others to learn and grow. I aim to become a proficient and innovative web developer who can create impactful and user-friendly solutions for various domains and industries.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  ".NET",
+  "Web Development",
+  "PHP",
+  "SQL/MySQL",
+  "ReactJS",
+  "Tailwind CSS",
 ];
 
 /**
@@ -45,7 +45,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "This is my personal portfolio site.";
 
 const About = () => {
   return (
